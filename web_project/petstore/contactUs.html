@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="petstore_css/pets.css">
+    <script src="jscript/input_validation.js"></script>
+    <title>Pet Store</title>
+</head>
+<body id="wrapper">
+<div class="row">
+    <h1>Pet Store</h1>
+    <div class="anchors">
+        <a href="index.html">Home</a></br>
+        <a href="AboutUs.html">About Us</a></br>
+        <a href="contactUs.html">Contact Us</a></br>
+        <a href="client.html">Client</a></br>
+        <a href="service.html">Service</a></br>
+        <a href="login.html">Login</a>
+    </div>
+    <div class="content">
+        <img src="images/petstore_contactus_banner.png" alt="index banner">
+        <h2>Contact Us</h2>
+        <p>Required information is marked withan asterik(*)</p>
+        <form name="cs_form" action="php/contactUs.php" method="post">
+            <div class=forms>
+                <div class=contactus_labels>
+                    <label>*First Name:</label>
+                </div>
+                <div class=contactus_inputs>
+                    <input type="text" name="first_name"/><br/>
+                </div>
+                <div class=contactus_labels>
+                    <label>*Last Name:</label>
+                </div>
+                <div class=contactus_inputs>
+                    <input type="text" name="last_name"/><br/>
+                </div>
+                <div class=contactus_labels>
+                    <label>*E-mail:</label>
+                </div>
+                <div class=contactus_inputs>
+                    <input type="text" name="email"/><br/>
+                </div>
+                <div class=contactus_labels>
+                    <label>Phone:</label>
+                </div>
+                <div class=contactus_inputs>
+                    <input type="text" name="phone"/><br/>
+                </div>
+                <div class=contactus_labels>
+                    <label>Comments:</label>
+                </div>
+                <div class=contactus_inputs>
+                    <textarea name="comments" rows="4"/></textarea><br/>
+                </div>
+                <div class=contactus_labels>
+                    <input type="submit" value="Submit" onclick="return validate_contactus_form();"/>
+                </div>
+            </div>
+        </form>
+        </br></br>
+        <footer>
+            Copyright © 2018 Pet Store</br>
+            <a href="mailto:varun@rao.com">varun@rao.com</a>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

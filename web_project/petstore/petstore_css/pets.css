@@ -1,0 +1,184 @@
+html {
+    color: #666666;
+    font-style: Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #000033;
+    background-image: url("../images/sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    color: white;
+    text-indent: 2%;
+    line-height: 200%;
+    margin: 0px;
+}
+
+h2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 80%;
+    color: #3399CC;
+    font-family: Georgia, serif;
+}
+
+#telephone, p, address {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-style: normal;
+}
+
+div.inputs {
+    float: left;
+    width: 73%;
+    margin-bottom: 0.1%;
+    margin-right: 2%;
+}
+
+div.labels {
+    float: left;
+    width: 23%;
+    margin-bottom: 0.1%;
+    margin-left: 2%;
+}
+
+div.contactus_inputs {
+    float: left;
+    width: 73%;
+    margin-bottom: 0.5%;
+    margin-right: 2%;
+}
+
+div.contactus_labels {
+    float: left;
+    width: 23%;
+    margin-bottom: 0.5%;
+    margin-left: 2%;
+}
+
+.forms:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.anchors {
+    float: left;
+    display: table-cell;
+    width: 20%;
+    min-height: 100%;
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    margin: 0px;
+    font-weight: bold;
+    background-color: #90C7E3;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50%;
+}
+
+div.content {
+    background-color: #FFFFFF;
+    float: left;
+    display: table-cell;
+    width: 80%;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.70em;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+div.content a {
+    color: #666666;
+
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 30px #333333;
+    background-clip: border-box;
+
+}
+
+#list {
+    margin-left: 5%;
+    padding-left: 3%;
+    margin-right: 5%;
+    padding-right: 3%;
+    width: 80%;
+}
+
+img {
+    background-color: #90C7E3;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 100%;
+    height: 200px
+}
+
+div.row {
+    background-color: #90C7E3;
+    display: table;
+    width: 100%;
+}
+
+textarea {
+    width: 35%;
+}
+
+#go_back {
+
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #3399CC;
+    font-style: italic;
+
+}
+@media only screen and (max-width: 480px) {
+    div.contactus_inputs, div.contactus_labels, div.inputs, div.labels {
+        width: 98%;
+        margin-top: 0;
+        margin-left: 2%;
+    }
+
+    a {
+        font-size: 40%
+    }
+
+    div.contactus_inputs textarea {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 481px) and ( max-width: 768px) {
+    div.contactus_inputs, div.contactus_labels, div.inputs, div.labels {
+        width: 98%;
+        margin-top: 0;
+        margin-left: 2%;
+
+    }
+
+    a {
+        font-size: 65%
+    }
+
+    div.contactus_inputs textarea {
+        width: 85%;
+    }
+}
